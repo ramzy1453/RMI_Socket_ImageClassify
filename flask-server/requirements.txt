@@ -1,0 +1,6 @@
+Flask
+Flask-WTF
+WTForms
+tensorflow
+numpy
+opencv-python

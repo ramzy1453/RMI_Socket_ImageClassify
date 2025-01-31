@@ -109,6 +109,8 @@ Le serveur Flask sert d'interface entre le modèle et les applications clientes.
 - **Recevoir une image en POST**
 - **Effectuer la prédiction**
 - **Retourner le résultat au client**
+- **Utilisation de ThreadPoolExecutor pour gérer les requêtes en parallèle.**
+- **Ajout de threaded=True pour activer le multi-threading dans Flask.**
 
 ```python
 @app.route('/', methods=['GET', 'POST'])

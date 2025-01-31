@@ -43,7 +43,7 @@ def classify_image(file_path):
     predicted_class = np.argmax(predictions, axis=1)[0]
     return alphabet_map.get(predicted_class, "Unknown")
 
-@app.route('/classify', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def home():
     print(f"Processing on Thread ID: {threading.get_ident()}")
     with open('log.txt', 'a') as f:

@@ -154,17 +154,4 @@ The Socket server and the RMI server should be on two separate terminals
 
 You can use either RMI or Socket communication depending on your choice in the Java Swing interface.
 
-## :star2: Meet the Authors
-
-<table>
-  <tr>
-  <td align="center">
-      <a href = "https://github.com/ramzy1453"><img src="https://avatars.githubusercontent.com/u/96486453?v=4" width="72" alt="Kemmoun Ramzy" /></a>
-    </td>
-    <td align="center">
-      <a href = "https://github.com/Abadli-Badro"><img  src="https://avatars.githubusercontent.com/u/78659350?v=4" width="72" alt="Abadli Badreddine" /></a>
-    </td>
-  </tr> 
-</table>
-
 ---
